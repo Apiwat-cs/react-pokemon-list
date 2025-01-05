@@ -30,18 +30,18 @@ https://cool-otter-94bfb6.netlify.app/
 
 1. Clone โปรเจค:
    
-   git clone <repository-url>
-   cd Pokemon-List
+  git clone <repository-url>
+  cd Pokemon-List
    
 2. ติดตั้ง Dependencies:
 
-npm install
+  npm install
 
 3. รันโปรเจคในโหมดพัฒนา:
 
-npm run dev
+  npm run dev
 
 4. Build สำหรับ Production:
 
-npm run build
-ไฟล์ที่ได้จะอยู่ในโฟลเดอร์ dist
+  npm run build
+  ไฟล์ที่ได้จะอยู่ในโฟลเดอร์ dist
