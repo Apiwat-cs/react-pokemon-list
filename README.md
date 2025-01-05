@@ -32,17 +32,17 @@ https://cool-otter-94bfb6.netlify.app/
 ```bash   
   git clone <repository-url>
   cd Pokemon-List
-   
+```   
 2. ติดตั้ง Dependencies:
 ```bash
   npm install
-
+```
 3. รันโปรเจคในโหมดพัฒนา:
 ```bash
   npm run dev
-
+```
 4. Build สำหรับ Production:
 ```bash
   npm run build
-
+```
   ไฟล์ที่ได้จะอยู่ในโฟลเดอร์ dist
