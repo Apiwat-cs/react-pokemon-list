@@ -1,0 +1,69 @@
+/* ตั้งค่าพื้นฐานของ Footer */
+.footer {
+    background-color: #52687e; /* สีพื้นหลัง */
+    color: #f8f9fa; /* สีข้อความ */
+    font-family: Arial, sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* เนื้อหาหลักใน Footer */
+  .footer-content {
+    display: flex;
+    justify-content: space-between; /* กระจายคอลัมน์ */
+    align-items: flex-start;
+    padding: 2rem;
+    max-width: 1400px; /* จำกัดความกว้างให้เท่ากับ Display */
+    margin: 0 auto; /* จัดให้อยู่ตรงกลาง */
+  }
+  
+  /* แต่ละ Section */
+  .footer-section {
+    flex: 1;
+    margin: 0 1rem; /* ระยะห่างระหว่างคอลัมน์ */
+    text-align: left;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .footer-section p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #d1d1d1;
+  }
+  
+  /* Footer ด้านล่าง */
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between; /* แยกข้อความกับปุ่ม */
+    align-items: center;
+    padding: 1rem 2rem;
+    max-width: 1400px; /* ขนาดเท่ากับ Footer Content */
+    margin: 0 auto; /* จัดให้อยู่ตรงกลาง */
+    border-top: 1.5px solid #e5e9ec; /* เส้นแบ่ง */
+    font-size: 0.9rem;
+    color: #d1d1d1;
+  }
+  
+  /* ปุ่มใน Footer */
+  .footer-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #f8f9fa;
+    background-color: #343a40;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .footer-button:hover {
+    background-color: #7490ac;
+  }
+  
